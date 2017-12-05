@@ -8,7 +8,7 @@ alert('Welcome, ' + userName + '! We\'re going to play a guessing game. Get read
 // first question
 var userHomeYorN = prompt('Yes or No: I am from Seattle, Washington.')
 userHomeYorN = userHomeYorN.toUpperCase();
-console.log('Am I from Seattle? User answered: ' + userHomeYorN);
+console.log('Am I from Seattle? User answered:',userHomeYorN);
 
 if (userHomeYorN === 'YES') {
   alert('That\'s correct, ' + userName + '. I am from Seattle.');
@@ -30,7 +30,7 @@ if (userExercise === 'YES') {
 // third question
 var userKids = prompt('Yes or No: I have kids.');
 userKids = userKids.toUpperCase();
-console.log('Do I have kids? User answered: ' + userKids);
+console.log('Do I have kids? User answered:',userKids);
 
 if (userKids === 'YES') {
   alert('Wrong! Kids are great, but I have a niece and nephew to keep me entertained instead.');
@@ -41,7 +41,7 @@ if (userKids === 'YES') {
 // fourth question
 var userHasCats = prompt('Yes or No: I have cats at home.');
 userHasCats = userHasCats.toUpperCase();
-console.log('Does user have two cats? User answered: ' + userHasCats);
+console.log('Does user have two cats? User answered:',userHasCats);
 
 if (userHasCats === 'YES') {
   alert('Yes, ' + userName + ', I do have two cats. I promise I try not to be a crazy cat lady most of the time.');
@@ -50,25 +50,12 @@ if (userHasCats === 'YES') {
 };
 
 // fifth question
-var userCareVolunteer = prompt('Yes or No: ')
+var userCareVolunteer = prompt('Yes or No: I volunteer virtually for a exotic animal sanctuary in Texas.')
+userCareVolunteer = userCareVolunteer.toUpperCase();
+console.log('Do I volunteer for CARE? User answered:',userCareVolunteer);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//foo
+if (userCareVolunteer === 'YES') {
+  alert('Yes, I volunteer virtually for an animal sanctuary called CARE Rescue Texas. Although my volunteer days are probably over for a few months now.')
+} else if (userCareVolunteer === 'NO') {
+  alert('False! I volunteer virtually for an animal sanctuary called CARE Rescue Texas. Random, I know.');
+};
