@@ -6,7 +6,7 @@ console.log('User\'s name:',userName);
 alert('Welcome, ' + userName + '! We\'re going to play a guessing game. Get ready!');
 
 // first question
-var userHomeYorN = prompt('Yes or No: I am from Seattle, Washington.')
+var userHomeYorN = prompt('Yes or No: I am from Seattle, Washington.');
 userHomeYorN = userHomeYorN.toUpperCase();
 console.log('Am I from Seattle? User answered:',userHomeYorN);
 
@@ -50,12 +50,12 @@ if (userHasCats === 'YES') {
 };
 
 // fifth question
-var userCareVolunteer = prompt('Yes or No: I volunteer virtually for a exotic animal sanctuary in Texas.')
+var userCareVolunteer = prompt('Yes or No: I volunteer virtually for a exotic animal sanctuary in Texas.');
 userCareVolunteer = userCareVolunteer.toUpperCase();
 console.log('Do I volunteer for CARE? User answered:',userCareVolunteer);
 
 if (userCareVolunteer === 'YES') {
-  alert('Yes, I volunteer virtually for an animal sanctuary called CARE Rescue Texas. Although my volunteer days are probably over for a few months now.')
+  alert('Yes, I volunteer virtually for an animal sanctuary called CARE Rescue Texas. Although my volunteer days are probably over for a few months now.');
 } else if (userCareVolunteer === 'NO') {
   alert('False! I volunteer virtually for an animal sanctuary called CARE Rescue Texas. Random, I know.');
 };
